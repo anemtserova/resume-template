@@ -1,0 +1,132 @@
+* {
+    --prussian-blue: #003049ff;
+    --firebrick: #ac2020ff;
+    --orange: #f77f00ff;
+    --maximum-yellow-red: #fcbf49ff;
+    --floral-white: #fbf9efff;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    color: var(--prussian-blue);
+}
+
+#container {
+    width: 60vw;
+    margin: auto;
+    margin-top: 25px;
+    padding: 50px;
+    height: 80rem;
+    box-shadow: 3px 3px 6px 5px rgba(0, 0, 0, 0.2);
+}
+
+#header, #my-experience, #my-info {
+    padding: 20px;
+}
+
+#header {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--maximum-yellow-red);
+}
+
+#my-experience, #my-info {
+    padding-top: 20px;
+}
+
+#my-experience {
+    float: left;
+    width: 60%;
+    height: 100%;
+}
+
+#my-info {
+    float: right;
+    width: 30%;
+    background-color: var(--floral-white);
+    height: 100vh;
+}
+
+#my-image {
+    background: url(https://i.imgur.com/prZlzvi.jpg) no-repeat;
+    background-size: cover;
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+}
+
+#intro, #my-image {
+    margin: 6px 25px;
+}
+
+.section-title {
+    color: var(--firebrick);
+    border-bottom: 4px solid var(--firebrick);
+    margin: 10px 0;
+}
+
+.job-title {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.job-title p {
+    margin-bottom: 0.3rem;
+}
+
+.job-description p {
+    margin: 0.3rem 0 3.5rem 0;
+}
+
+.section-title h2, #my-name h1, #my-title h2 {
+    margin-bottom: 3px;
+    font-family: Special Elite;
+}
+
+.info-details ul li {
+    list-style-type: none;
+    margin-bottom: 14px;
+    font-size: 1.1rem;
+}
+
+.skill-bar {
+    height: 25px;
+    background-color: transparent;
+    margin: 2px 0 10px 0;
+}
+
+.skill-name {
+    vertical-align: center;
+    font-weight: bold;
+}
+
+.filled-bar {
+    height: 100%;
+    background-color: var(--orange);
+    border-radius: 0 25px 25px 0;
+}
+
+.first {
+    width: 70%;
+}
+
+.second {
+    width: 85%
+}
+
+.third {
+    width: 100%;
+}
+
+.fourth {
+    width: 75%;
+}
+
+.fifth {
+    width: 90%;
+}
